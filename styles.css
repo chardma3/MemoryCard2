@@ -25,3 +25,31 @@ body {
 	}
 
 }
+
+.memory-game {
+    width:640px;
+    height: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2p solid yellow;
+}
+
+.memory-card {
+    width:25%;
+    height:33.3%;
+    position: relative;
+    margin:5px;
+}
+
+.front-face,
+.back-face {
+    position: absolute;
+    width:100%;
+    height:100%;
+    
+}
+
+img {
+    width: 100px;
+}
+]
